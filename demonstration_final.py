@@ -172,7 +172,7 @@ def demonstrate_examples():
     examples = [
         ("examples/advanced_usage_examples.py", "Exemplos avançados de uso"),
         ("examples/integrated_specialized_demo.py", "Demonstrações integradas"),
-        ("setup_specialized_libraries.py", "Instalador de bibliotecas")
+        ("scripts/setup_specialized_libraries.py", "Instalador de bibliotecas")
     ]
 
     print("📚 Exemplos disponíveis:")
@@ -284,7 +284,7 @@ def main():
     else:
         print("⚠️ Algumas demonstrações falharam")
         print("   • Verifique instalação das bibliotecas especializadas")
-        print("   • Execute: python setup_specialized_libraries.py")
+        print("   • Execute: python scripts/setup_specialized_libraries.py")
 
     # Resumo do sistema
     show_system_summary()

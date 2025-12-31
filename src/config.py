@@ -6,7 +6,7 @@ import os
 from pathlib import Path
 
 # Diretórios
-PROJECT_ROOT = Path(__file__).parent
+PROJECT_ROOT = Path(__file__).parent.parent
 SRC_DIR = PROJECT_ROOT / "src"
 TESTS_DIR = PROJECT_ROOT / "tests"
 RESULTS_DIR = PROJECT_ROOT / "resultados"
